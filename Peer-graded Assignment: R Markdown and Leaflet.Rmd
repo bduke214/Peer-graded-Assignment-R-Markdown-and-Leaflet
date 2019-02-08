@@ -26,6 +26,4 @@ my_fav_place <- my_fav_place %>% addMarkers(lat=38.7841477, lng= -77.0178288, po
 my_fav_place
 
 ```
-http://rpubs.com/bduke214/465388
-
-http://rpubs.com/bduke214/465388
+http://rpubs.com/bduke214/465391
