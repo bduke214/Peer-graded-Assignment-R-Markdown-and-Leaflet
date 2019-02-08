@@ -1,0 +1,30 @@
+---
+title: 'Peer-graded Assignment: R Markdown and Leaflet'
+author: "Brittany Duke"
+date: "February 8, 2019"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+In this assignment an interactive map was created using leaflet package.
+
+## Map of My Favorite Thai Place
+
+The following map represents my favorite Thai Place to eat. 
+
+```
+library(leaflet)
+my_fav_place <- leaflet() %>% addTiles() 
+my_fav_place <- my_fav_place %>% addMarkers(lat=38.7841477, lng= -77.0178288, popup="My favorite Thai Place")
+my_fav_place
+
+```
+
+
